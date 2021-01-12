@@ -1,7 +1,6 @@
 {
   "name": "skeleton-part-ii",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "directories": {
     "lib": "lib",
@@ -27,5 +26,6 @@
     "redux-logger": "^3.0.6",
     "webpack": "^4.29.3",
     "webpack-cli": "^4.2.0"
-  }
+  },
+  "description": ""
 }

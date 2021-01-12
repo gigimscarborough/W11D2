@@ -6,20 +6,16 @@ class PokemonDetail extends React.Component {
         super(props)
     }
 
-//     componentDidMount() {
-//         this.props.requestAllPokemon()
-//     }
+    componentDidMount() {
+        this.props.requestSinglePokemon(this.props.match.params.pokemonId)
+    }
 
-//     render() {
-//         const pokemonItems = this.props.pokemon.map(poke => (
-//             <PokemonIndexItem key={poke.id} pokemon={poke} />
-//         ))
-//         return (
-//             <section className="pokedex">
-//                 <ul>{pokemonItems}</ul>
-//             </section>
-//         )
-//     }
+     render() {
+         
+         return (
+            <h1>test</h1>
+         )
+     }
 }
 
 export default PokemonDetail;
